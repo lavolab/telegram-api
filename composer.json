@@ -1,5 +1,5 @@
 {
-  "name": "unreal4u/telegram-api",
+  "name": "lavolab/telegram-api",
   "description": "A complete Telegram bot API implementation written in PHP, with support for inline bots!",
   "keywords": [
     "Telegram",
@@ -8,9 +8,9 @@
   ],
   "authors": [
     {
-      "name": "Camilo Sperberg",
-      "email": "me+tgapi@unreal4u.com",
-      "homepage": "https://github.com/unreal4u/telegram-api/graphs/contributors"
+      "name": "K K",
+      "email": "tech@lavolab.com",
+      "homepage": "https://github.com/lavolab/telegram-api/graphs/contributors"
     }
   ],
   "require": {
@@ -41,8 +41,8 @@
     }
   },
   "support": {
-    "issues": "https://github.com/unreal4u/telegram-api/issues",
-    "source": "https://github.com/unreal4u/telegram-api"
+    "issues": "https://github.com/lavolab/telegram-api/issues",
+    "source": "https://github.com/lavolab/telegram-api"
   },
   "license": "MIT"
 }
