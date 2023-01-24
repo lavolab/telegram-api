@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to a video animation (H.264/MPEG-4 AVC video without sound). By default, this animated MPEG-4 file

@@ -1,15 +1,15 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendDocument;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Document;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\SendDocument;
+use lavolab\TelegramAPI\Telegram\Types\Chat;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Telegram\Types\Document;
+use lavolab\TelegramAPI\Telegram\Types\Message;
+use lavolab\TelegramAPI\Telegram\Types\User;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendDocumentTest extends TestCase
 {

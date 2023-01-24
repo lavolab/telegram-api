@@ -1,15 +1,15 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendAudio;
-use unreal4u\TelegramAPI\Telegram\Types\Audio;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\SendAudio;
+use lavolab\TelegramAPI\Telegram\Types\Audio;
+use lavolab\TelegramAPI\Telegram\Types\Chat;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Telegram\Types\Message;
+use lavolab\TelegramAPI\Telegram\Types\User;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendAudioTest extends TestCase
 {
@@ -65,7 +65,7 @@ class SendAudioTest extends TestCase
     }
 
     /**
-     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage chat_id
      */
     public function testExportException()

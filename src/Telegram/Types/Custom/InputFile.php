@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace lavolab\TelegramAPI\Telegram\Types\Custom;
 
-use unreal4u\TelegramAPI\Exceptions\FileNotReadable;
+use lavolab\TelegramAPI\Exceptions\FileNotReadable;
 
 /**
  * This object represents the contents of a file to be uploaded. Must be posted using multipart/form-data in the usual

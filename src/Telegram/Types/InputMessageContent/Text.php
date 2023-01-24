@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+namespace lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents the content of a text message to be sent as the result of an inline query.

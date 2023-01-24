@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Exceptions;
+namespace lavolab\TelegramAPI\Exceptions;
 
 class FileNotReadable extends \RuntimeException
 {

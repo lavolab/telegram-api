@@ -1,13 +1,13 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\AnswerInlineQuery;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Article;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent\Text;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\AnswerInlineQuery;
+use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result\Article;
+use lavolab\TelegramAPI\Telegram\Types\InputMessageContent\Text;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 //use PHPUnit\Framework\TestCase;
 

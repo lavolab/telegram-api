@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI;
+namespace lavolab\TelegramAPI;
 
 use React\Promise\PromiseInterface;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
 
 /**
  * Use this method to upload a .png file with a sticker for later use in createNewStickerSet and addStickerToSet methods

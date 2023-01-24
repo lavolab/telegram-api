@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents type of a poll, which is allowed to be created and sent when the corresponding button is

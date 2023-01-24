@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use unreal4u\TelegramAPI\Telegram\Types\MessageEntity;
+use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use lavolab\TelegramAPI\Telegram\Types\MessageEntity;
 
 /**
  * Use this method to send general files. On success, the sent Message is returned. Bots can currently send files of any

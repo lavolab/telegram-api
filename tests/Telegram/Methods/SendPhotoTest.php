@@ -1,14 +1,14 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendPhoto;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\SendPhoto;
+use lavolab\TelegramAPI\Telegram\Types\Chat;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Telegram\Types\Message;
+use lavolab\TelegramAPI\Telegram\Types\User;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendPhotoTest extends TestCase
 {
@@ -60,7 +60,7 @@ class SendPhotoTest extends TestCase
             $this->assertNull($result->audio);
 
             $this->assertCount(3, $result->photo);
-            $this->assertContainsOnlyInstancesOf('unreal4u\\TelegramAPI\\Telegram\\Types\\PhotoSize', $result->photo);
+            $this->assertContainsOnlyInstancesOf('lavolab\\TelegramAPI\\Telegram\\Types\\PhotoSize', $result->photo);
             $i = 1;
             foreach ($result->photo as $photo) {
                 $this->assertEquals(sprintf('XXX-YYY-ZZZ-0%d', $i), $photo->file_id);

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI;
+namespace lavolab\TelegramAPI;
 
 use Exception;
 use Psr\Http\Message\ResponseInterface;
@@ -11,15 +11,15 @@ use React\Http\Browser;
 use React\Http\Message\ResponseException;
 use React\Promise\PromiseInterface;
 use React\Socket\Connector;
-use unreal4u\TelegramAPI\Exceptions\ClientException;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Exceptions\ClientException;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 /**
  * Class HttpClientRequestHandler
  *
  * This class implements a request handler based on the react/http package.
  *
- * @package unreal4u\TelegramAPI
+ * @package lavolab\TelegramAPI
  */
 class HttpClientRequestHandler implements RequestHandlerInterface
 {

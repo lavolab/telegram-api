@@ -1,11 +1,11 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SetWebhook;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\SetWebhook;
+use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SetWebhookTest extends TestCase
 {
@@ -31,7 +31,7 @@ class SetWebhookTest extends TestCase
     }
 
     /**
-     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage url
      */
     public function testMandatoryFields()

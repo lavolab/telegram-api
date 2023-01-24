@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\UserArray;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use lavolab\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
+use lavolab\TelegramAPI\Telegram\Types\Custom\UserArray;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 use lucadevelop\TelegramEntitiesDecoder\EntityDecoder;
 
 /**

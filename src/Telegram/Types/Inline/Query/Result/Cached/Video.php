@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
+namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to a video file stored on the Telegram servers. By default, this video file will be sent by the

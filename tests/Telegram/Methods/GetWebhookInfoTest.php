@@ -1,11 +1,11 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\GetWebhookInfo;
-use unreal4u\TelegramAPI\Telegram\Types\WebhookInfo;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\GetWebhookInfo;
+use lavolab\TelegramAPI\Telegram\Types\WebhookInfo;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetWebhookInfoTest extends TestCase
 {

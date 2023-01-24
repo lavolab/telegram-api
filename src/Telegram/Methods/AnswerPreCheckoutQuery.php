@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
 
 /**
  * Once the user has confirmed their payment and shipping details, the Bot API sends the final confirmation in the form

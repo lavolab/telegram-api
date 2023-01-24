@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to a page containing an embedded video player or a video file. By default, this video file will be

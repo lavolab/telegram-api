@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * Describes actions that a non-administrator user is allowed to take in a chat

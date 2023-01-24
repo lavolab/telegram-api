@@ -1,11 +1,11 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Mock;
+namespace lavolab\TelegramAPI\tests\Mock;
 
 use Psr\Log\LoggerInterface;
 use React\Promise\PromiseInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\TgLog;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\TgLog;
 
 
 class MockTgLog extends TgLog

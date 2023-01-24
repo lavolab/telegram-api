@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
 
 /**
  * Use this method when you need to tell the user that something is happening on the bot's side. The status is set for 5

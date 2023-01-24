@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Passport;
+namespace lavolab\TelegramAPI\Telegram\Types\Passport;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents an error in the Telegram Passport element which was submitted that should be resolved by the

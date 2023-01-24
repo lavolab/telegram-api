@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
+use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
 
 /**
  * Upon receiving a message with this object, Telegram clients will hide the current custom keyboard and display the

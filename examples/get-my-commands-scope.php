@@ -5,12 +5,12 @@ declare(strict_types=1);
 include __DIR__ . '/basics.php';
 
 use React\EventLoop\Factory;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\HttpClientRequestHandler;
-use unreal4u\TelegramAPI\Telegram\Methods\GetMyCommands;
-use unreal4u\TelegramAPI\Telegram\Types\BotCommand;
-use unreal4u\TelegramAPI\Telegram\Types\BotCommandScope;
-use unreal4u\TelegramAPI\TgLog;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\HttpClientRequestHandler;
+use lavolab\TelegramAPI\Telegram\Methods\GetMyCommands;
+use lavolab\TelegramAPI\Telegram\Types\BotCommand;
+use lavolab\TelegramAPI\Telegram\Types\BotCommandScope;
+use lavolab\TelegramAPI\TgLog;
 
 $loop = Factory::create();
 $tgLog = new TgLog(BOT_TOKEN, new HttpClientRequestHandler($loop));

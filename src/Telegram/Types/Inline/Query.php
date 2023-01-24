@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline;
+namespace lavolab\TelegramAPI\Telegram\Types\Inline;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Telegram\Types\Location;
-use unreal4u\TelegramAPI\Telegram\Types\User;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Telegram\Types\Location;
+use lavolab\TelegramAPI\Telegram\Types\User;
 
 /**
  * This object represents an incoming inline query. When the user sends an empty query, your bot could return some

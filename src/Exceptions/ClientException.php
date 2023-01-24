@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Exceptions;
+namespace lavolab\TelegramAPI\Exceptions;
 
 use React\Http\Message\ResponseException;
 use Throwable;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
+use lavolab\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
 
 class ClientException extends \RuntimeException
 {

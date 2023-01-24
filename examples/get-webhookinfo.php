@@ -5,10 +5,10 @@ declare(strict_types=1);
 include __DIR__ . '/basics.php';
 
 use React\EventLoop\Factory;
-use unreal4u\TelegramAPI\HttpClientRequestHandler;
-use unreal4u\TelegramAPI\Telegram\Methods\GetWebhookInfo;
-use unreal4u\TelegramAPI\Telegram\Types\WebhookInfo;
-use unreal4u\TelegramAPI\TgLog;
+use lavolab\TelegramAPI\HttpClientRequestHandler;
+use lavolab\TelegramAPI\Telegram\Methods\GetWebhookInfo;
+use lavolab\TelegramAPI\Telegram\Types\WebhookInfo;
+use lavolab\TelegramAPI\TgLog;
 
 $loop = Factory::create();
 $tgLog = new TgLog(BOT_TOKEN, new HttpClientRequestHandler($loop));

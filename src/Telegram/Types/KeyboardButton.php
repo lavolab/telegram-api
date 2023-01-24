@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents one button of the reply keyboard. For simple text buttons String can be used instead of this

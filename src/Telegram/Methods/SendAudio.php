@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
 
 /**
  * Use this method to send audio files, if you want Telegram clients to display them in the music player. Your audio

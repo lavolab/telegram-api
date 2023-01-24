@@ -2,17 +2,17 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Interfaces;
+namespace lavolab\TelegramAPI\Interfaces;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 /**
  * Mandatory functions for Methods
  *
- * @package unreal4u\TelegramAPI\Interfaces
+ * @package lavolab\TelegramAPI\Interfaces
  */
 interface TelegramMethodDefinitions
 {

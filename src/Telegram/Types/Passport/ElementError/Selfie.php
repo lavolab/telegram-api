@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Passport\ElementError;
+namespace lavolab\TelegramAPI\Telegram\Types\Passport\ElementError;
 
-use unreal4u\TelegramAPI\Telegram\Types\Passport\PassportElementError;
+use lavolab\TelegramAPI\Telegram\Types\Passport\PassportElementError;
 
 /**
  * This object represents information about an order

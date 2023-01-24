@@ -5,11 +5,11 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use unreal4u\TelegramAPI\HttpClientRequestHandler;
-use unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
-use unreal4u\TelegramAPI\Telegram\Types\KeyboardButton;
-use unreal4u\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
-use unreal4u\TelegramAPI\TgLog;
+use lavolab\TelegramAPI\HttpClientRequestHandler;
+use lavolab\TelegramAPI\Telegram\Methods\SendMessage;
+use lavolab\TelegramAPI\Telegram\Types\KeyboardButton;
+use lavolab\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
+use lavolab\TelegramAPI\TgLog;
 
 $loop = Factory::create();
 $tgLog = new TgLog(BOT_TOKEN, new HttpClientRequestHandler($loop));

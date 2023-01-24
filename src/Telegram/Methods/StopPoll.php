@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
 
 /**
  * Use this method to send point on the map. On success, the sent Message is returned.

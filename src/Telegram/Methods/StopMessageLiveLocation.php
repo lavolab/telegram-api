@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Exceptions\InvalidResultType;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Exceptions\InvalidResultType;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use lavolab\TelegramAPI\Telegram\Types\Message;
 
 /**
  * Use this method to stop updating a live location message sent by the bot or via the bot (for inline bots) before

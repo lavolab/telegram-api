@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
 /**
  * Use this method to send answers to an inline query. On success, True is returned.
@@ -101,7 +101,7 @@ class AnswerInlineQuery extends TelegramMethods
      *
      * @param Result $result
      * @return AnswerInlineQuery
-     * @throws \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @throws \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      */
     public function addResult(Result $result): AnswerInlineQuery
     {

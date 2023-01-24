@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace lavolab\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\ChosenResult;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Telegram\Types\Inline\ChosenResult;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Query;
 
 /**
  * This object represents an incoming update.

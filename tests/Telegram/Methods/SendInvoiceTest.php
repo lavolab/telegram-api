@@ -1,13 +1,13 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendInvoice;
-use unreal4u\TelegramAPI\Telegram\Types\Invoice;
-use unreal4u\TelegramAPI\Telegram\Types\LabeledPrice;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\SendInvoice;
+use lavolab\TelegramAPI\Telegram\Types\Invoice;
+use lavolab\TelegramAPI\Telegram\Types\LabeledPrice;
+use lavolab\TelegramAPI\Telegram\Types\Message;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendInvoiceTest extends TestCase
 {

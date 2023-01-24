@@ -1,13 +1,13 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\GetUserProfilePhotos;
-use unreal4u\TelegramAPI\Telegram\Types\PhotoSize;
-use unreal4u\TelegramAPI\Telegram\Types\UserProfilePhotos;
-use unreal4u\TelegramAPI\tests\Mock\MockClientException;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use lavolab\TelegramAPI\Telegram\Methods\GetUserProfilePhotos;
+use lavolab\TelegramAPI\Telegram\Types\PhotoSize;
+use lavolab\TelegramAPI\Telegram\Types\UserProfilePhotos;
+use lavolab\TelegramAPI\tests\Mock\MockClientException;
+use lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetUserProfilePhotosTest extends TestCase
 {

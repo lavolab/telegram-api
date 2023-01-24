@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI;
+namespace lavolab\TelegramAPI;
 
 use Amp\Artax\DefaultClient;
 use Amp\Artax\Request;
@@ -10,8 +10,8 @@ use Amp\Artax\Response;
 use Amp\Promise;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
-use unreal4u\TelegramAPI\Exceptions\ClientException;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Exceptions\ClientException;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 /**
  * @param Promise $promise
@@ -49,7 +49,7 @@ class HttpClientRequestHandlerAmp implements RequestHandlerInterface
      * @param string $uri
      *
      * @return PromiseInterface
-     * @throws \unreal4u\TelegramAPI\Exceptions\ClientException
+     * @throws \lavolab\TelegramAPI\Exceptions\ClientException
      */
     public function get(string $uri): PromiseInterface
     {
@@ -63,7 +63,7 @@ class HttpClientRequestHandlerAmp implements RequestHandlerInterface
      * @param array $formFields
      *
      * @return PromiseInterface
-     * @throws \unreal4u\TelegramAPI\Exceptions\ClientException
+     * @throws \lavolab\TelegramAPI\Exceptions\ClientException
      */
     public function post(string $uri, array $formFields): PromiseInterface
     {
@@ -84,7 +84,7 @@ class HttpClientRequestHandlerAmp implements RequestHandlerInterface
      * @param Request $request
      *
      * @return PromiseInterface
-     * @throws \unreal4u\TelegramAPI\Exceptions\ClientException
+     * @throws \lavolab\TelegramAPI\Exceptions\ClientException
      */
     public function processRequest(Request $request)
     {

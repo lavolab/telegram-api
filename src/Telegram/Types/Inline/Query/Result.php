@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query;
+namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Exceptions\MissingMandatoryField;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
+use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 
 /**
  * This object represents one result of an inline query. Telegram clients currently support results of the following 20
@@ -85,7 +85,7 @@ abstract class Result extends TelegramTypes
      *
      * @see TelegramMethods::export
      * @return array
-     * @throws \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @throws \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      */
     public function export(): array
     {

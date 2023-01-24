@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Exceptions\InvalidMediaType;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\MessageArray;
-use unreal4u\TelegramAPI\Telegram\Types\InputMedia;
-use unreal4u\TelegramAPI\Telegram\Types\InputMedia\Photo;
-use unreal4u\TelegramAPI\Telegram\Types\InputMedia\Video;
+use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use lavolab\TelegramAPI\Exceptions\InvalidMediaType;
+use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use lavolab\TelegramAPI\Telegram\Types\Custom\MessageArray;
+use lavolab\TelegramAPI\Telegram\Types\InputMedia;
+use lavolab\TelegramAPI\Telegram\Types\InputMedia\Photo;
+use lavolab\TelegramAPI\Telegram\Types\InputMedia\Video;
 use function basename;
 use function count;
 use function is_readable;
