@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
 
 /**
  * Once the user has confirmed their payment and shipping details, the Bot API sends the final confirmation in the form

@@ -1,14 +1,14 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\SendLocation;
-use lavolab\TelegramAPI\Telegram\Types\Chat;
-use lavolab\TelegramAPI\Telegram\Types\Location;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\SendLocation;
+use Lavolab\TelegramAPI\Telegram\Types\Chat;
+use Lavolab\TelegramAPI\Telegram\Types\Location;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendLocationTest extends TestCase
 {

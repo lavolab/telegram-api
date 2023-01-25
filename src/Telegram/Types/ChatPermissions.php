@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * Describes actions that a non-administrator user is allowed to take in a chat

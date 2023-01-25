@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Abstracts;
+namespace Lavolab\TelegramAPI\Abstracts;
 
 /**
  * Special class to which to ask if we're dealing with a native type or a custom one

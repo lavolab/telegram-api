@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
+namespace Lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
-use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
+use Lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents the content of a location message to be sent as the result of an inline query.

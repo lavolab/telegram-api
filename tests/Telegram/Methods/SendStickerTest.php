@@ -1,15 +1,15 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\SendSticker;
-use lavolab\TelegramAPI\Telegram\Types\Chat;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\Telegram\Types\PhotoSize;
-use lavolab\TelegramAPI\Telegram\Types\Sticker;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\SendSticker;
+use Lavolab\TelegramAPI\Telegram\Types\Chat;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\Telegram\Types\PhotoSize;
+use Lavolab\TelegramAPI\Telegram\Types\Sticker;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendStickerTest extends TestCase
 {

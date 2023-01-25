@@ -4,12 +4,12 @@ declare(strict_types = 1);
 
 include __DIR__.'/basics.php';
 
-use lavolab\TelegramAPI\Telegram\Methods\SendPhoto;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\TgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\SendPhoto;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\TgLog;
 
 \Amp\Loop::run(function () {
-    $tgLog = new TgLog(BOT_TOKEN, new \lavolab\TelegramAPI\HttpClientRequestHandlerAmp());
+    $tgLog = new TgLog(BOT_TOKEN, new \Lavolab\TelegramAPI\HttpClientRequestHandlerAmp());
 
     $sendPhoto = new SendPhoto();
     $sendPhoto->chat_id = A_USER_CHAT_ID;

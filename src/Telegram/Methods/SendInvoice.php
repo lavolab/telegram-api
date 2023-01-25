@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use lavolab\TelegramAPI\Telegram\Types\LabeledPrice;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use Lavolab\TelegramAPI\Telegram\Types\LabeledPrice;
 
 /**
  * Use this method to send invoices. On success, the sent Message is returned.

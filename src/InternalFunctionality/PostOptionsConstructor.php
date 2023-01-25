@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\InternalFunctionality;
+namespace Lavolab\TelegramAPI\InternalFunctionality;
 
 use MultipartBuilder\Builder;
 use MultipartBuilder\MultipartData;
 use Psr\Log\LoggerInterface;
 use function strstr;
-use lavolab\Dummy\Logger;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\Dummy\Logger;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
 use function pathinfo;
 use function stream_get_contents;
 use function strlen;

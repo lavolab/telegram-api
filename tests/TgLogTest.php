@@ -1,10 +1,10 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests;
+namespace Lavolab\TelegramAPI\tests;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\GetMe;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\GetMe;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class TgLogTest extends TestCase
 {
@@ -39,9 +39,9 @@ class TgLogTest extends TestCase
 
     /*public function testBuildMultipartFormData(array $data, string $fileKeyName, $stream = null, array $expected = [])
     {
-        $call = new \ReflectionMethod('lavolab\\TelegramAPI\\TgLog', 'buildMultipartFormData');
+        $call = new \ReflectionMethod('Lavolab\\TelegramAPI\\TgLog', 'buildMultipartFormData');
         $call->setAccessible(true);
-        $result = $call->invokeArgs(new \lavolab\TelegramAPI\TgLog('TEST-TEST'), [$data, $fileKeyName, $stream]);
+        $result = $call->invokeArgs(new \Lavolab\TelegramAPI\TgLog('TEST-TEST'), [$data, $fileKeyName, $stream]);
         $this->assertEquals($expected, $result);
     }*/
 }

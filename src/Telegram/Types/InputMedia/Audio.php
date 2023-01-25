@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\InputMedia;
+namespace Lavolab\TelegramAPI\Telegram\Types\InputMedia;
 
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\Telegram\Types\InputMedia;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Telegram\Types\InputMedia;
 
 /**
  * Represents a video to be sent.

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\ResponseParameters;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\ResponseParameters;
 
 /**
  * Not being used by the package itself, but useful for some bots to initialize if no response is actually expected

@@ -1,10 +1,10 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\InternalFunctionality;
+namespace Lavolab\TelegramAPI\tests\InternalFunctionality;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Exceptions\ClientException;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Exceptions\ClientException;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 class TelegramRawDataTest extends TestCase
 {
@@ -44,7 +44,7 @@ class TelegramRawDataTest extends TestCase
     /**
      * @dataProvider providerGetInvalidTypeOfResult
      * @param $data
-     * @expectedException \lavolab\TelegramAPI\Exceptions\InvalidResultType
+     * @expectedException \Lavolab\TelegramAPI\Exceptions\InvalidResultType
      */
     public function testGetInvalidTypeOfResult($data)
     {

@@ -1,13 +1,13 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Types;
+namespace Lavolab\TelegramAPI\tests\Telegram\Types;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Types\CallbackQuery;
-use lavolab\TelegramAPI\Telegram\Types\Chat;
-use lavolab\TelegramAPI\Telegram\Types\Update;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Types\CallbackQuery;
+use Lavolab\TelegramAPI\Telegram\Types\Chat;
+use Lavolab\TelegramAPI\Telegram\Types\Update;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class InlineKeyboardMarkupTest extends TestCase
 {

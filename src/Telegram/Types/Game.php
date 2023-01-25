@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use lavolab\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
 
 /**
  * This object represents a game. Use BotFather to create and edit games, their short names will act as unique

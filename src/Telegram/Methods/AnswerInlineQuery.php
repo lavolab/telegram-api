@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
 /**
  * Use this method to send answers to an inline query. On success, True is returned.
@@ -101,7 +101,7 @@ class AnswerInlineQuery extends TelegramMethods
      *
      * @param Result $result
      * @return AnswerInlineQuery
-     * @throws \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
+     * @throws \Lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      */
     public function addResult(Result $result): AnswerInlineQuery
     {

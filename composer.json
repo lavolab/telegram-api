@@ -32,12 +32,12 @@
   },
   "autoload": {
     "psr-4": {
-      "lavolab\\TelegramAPI\\": "src"
+      "Lavolab\\TelegramAPI\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "lavolab\\TelegramAPI\\tests\\": "tests"
+      "Lavolab\\TelegramAPI\\tests\\": "tests"
     }
   },
   "support": {

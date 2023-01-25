@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use lavolab\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
-use lavolab\TelegramAPI\Telegram\Types\Custom\UserArray;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\UserArray;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 use lucadevelop\TelegramEntitiesDecoder\EntityDecoder;
 
 /**

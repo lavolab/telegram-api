@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Passport\ElementError;
+namespace Lavolab\TelegramAPI\Telegram\Types\Passport\ElementError;
 
-use lavolab\TelegramAPI\Telegram\Types\Passport\PassportElementError;
+use Lavolab\TelegramAPI\Telegram\Types\Passport\PassportElementError;
 
 /**
  * This object represents information about an order

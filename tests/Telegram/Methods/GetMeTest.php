@@ -1,12 +1,12 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\GetMe;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\tests\Mock\MockClientException;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\GetMe;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\tests\Mock\MockClientException;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetMeTest extends TestCase
 {

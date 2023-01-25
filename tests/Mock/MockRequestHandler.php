@@ -1,11 +1,11 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Mock;
+namespace Lavolab\TelegramAPI\tests\Mock;
 
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\RequestHandlerInterface;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\RequestHandlerInterface;
 
 class MockRequestHandler implements RequestHandlerInterface
 {

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\TraversableCustomType;
-use lavolab\TelegramAPI\Telegram\Types\BotCommand;
+use Lavolab\TelegramAPI\Abstracts\TraversableCustomType;
+use Lavolab\TelegramAPI\Telegram\Types\BotCommand;
 use function count;
 
 /**

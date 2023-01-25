@@ -5,11 +5,11 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use lavolab\TelegramAPI\HttpClientRequestHandler;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramDocument;
-use lavolab\TelegramAPI\Telegram\Methods\GetFile;
-use lavolab\TelegramAPI\Telegram\Types\File;
-use lavolab\TelegramAPI\TgLog;
+use Lavolab\TelegramAPI\HttpClientRequestHandler;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramDocument;
+use Lavolab\TelegramAPI\Telegram\Methods\GetFile;
+use Lavolab\TelegramAPI\Telegram\Types\File;
+use Lavolab\TelegramAPI\TgLog;
 
 $loop = Factory::create();
 $tgLog = new TgLog(BOT_TOKEN, new HttpClientRequestHandler($loop));

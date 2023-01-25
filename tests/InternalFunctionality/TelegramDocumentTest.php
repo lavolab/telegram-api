@@ -1,10 +1,10 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\InternalFunctionality;
+namespace Lavolab\TelegramAPI\tests\InternalFunctionality;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramDocument;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramDocument;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 class TelegramDocumentTest extends TestCase
 {

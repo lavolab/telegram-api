@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object contains information about one member of the chat

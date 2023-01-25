@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Inline;
+namespace Lavolab\TelegramAPI\Telegram\Types\Inline;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Location;
-use lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Location;
+use Lavolab\TelegramAPI\Telegram\Types\User;
 
 /**
  * This object represents an incoming inline query. When the user sends an empty query, your bot could return some

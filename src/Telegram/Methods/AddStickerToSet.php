@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use lavolab\TelegramAPI\Telegram\Types\MaskPosition;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use Lavolab\TelegramAPI\Telegram\Types\MaskPosition;
 
 /**
  * Use this method to add a new sticker to a set created by the bot. Returns True on success

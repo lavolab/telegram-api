@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
 
 /**
  * As of v.4.0, Telegram clients support rounded square mp4 videos of up to 1 minute long. Use this method to send video

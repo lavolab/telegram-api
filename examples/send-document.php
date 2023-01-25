@@ -5,11 +5,11 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use lavolab\TelegramAPI\HttpClientRequestHandler;
-use lavolab\TelegramAPI\Telegram\Methods\GetFile;
-use lavolab\TelegramAPI\Telegram\Methods\SendDocument;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\TgLog;
+use Lavolab\TelegramAPI\HttpClientRequestHandler;
+use Lavolab\TelegramAPI\Telegram\Methods\GetFile;
+use Lavolab\TelegramAPI\Telegram\Methods\SendDocument;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\TgLog;
 use function Clue\React\Block\await;
 
 $loop = Factory::create();
@@ -27,7 +27,7 @@ $promise->then(
         echo '<pre>';
         var_dump($response);
         echo '</pre>';
-        /** @var $response \lavolab\TelegramAPI\Telegram\Types\Message */
+        /** @var $response \Lavolab\TelegramAPI\Telegram\Types\Message */
 
         // Load uploaded video and generate URL to download using bot token
         $getFileVideo = new GetFile();

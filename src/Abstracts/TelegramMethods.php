@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Abstracts;
+namespace Lavolab\TelegramAPI\Abstracts;
 
 use Generator;
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
-use lavolab\TelegramAPI\Interfaces\TelegramMethodDefinitions;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
+use Lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
+use Lavolab\TelegramAPI\Interfaces\TelegramMethodDefinitions;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
 use function get_class;
 use function is_object;
 use function json_encode;
@@ -33,8 +33,8 @@ abstract class TelegramMethods implements TelegramMethodDefinitions
      * This function may however be overwritten if the method uses another object, there are many examples of this, so
      * just check out the rest of the code. A good place to start is GetUserProfilePhotos or LeaveChat
      *
-     * @see \lavolab\TelegramAPI\Telegram\Methods\GetUserProfilePhotos
-     * @see \lavolab\TelegramAPI\Telegram\Methods\LeaveChat
+     * @see \Lavolab\TelegramAPI\Telegram\Methods\GetUserProfilePhotos
+     * @see \Lavolab\TelegramAPI\Telegram\Methods\LeaveChat
      *
      * @param TelegramResponse $data
      * @param LoggerInterface $logger
@@ -66,7 +66,7 @@ abstract class TelegramMethods implements TelegramMethodDefinitions
     /**
      * Ensure we have a method we can always call in order to check if we have any local files
      *
-     * @see \lavolab\TelegramAPI\InternalFunctionality\PostOptionsConstructor::checkIsMultipart
+     * @see \Lavolab\TelegramAPI\InternalFunctionality\PostOptionsConstructor::checkIsMultipart
      *
      * @return bool
      */

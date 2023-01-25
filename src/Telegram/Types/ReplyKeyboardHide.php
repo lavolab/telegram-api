@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use Lavolab\TelegramAPI\Abstracts\KeyboardMethods;
 
 /**
  * Upon receiving a message with this object, Telegram clients will hide the current custom keyboard and display the

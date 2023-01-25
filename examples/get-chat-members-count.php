@@ -5,11 +5,11 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use lavolab\TelegramAPI\Exceptions\ClientException;
-use lavolab\TelegramAPI\HttpClientRequestHandler;
-use lavolab\TelegramAPI\Telegram\Methods\GetChatMembersCount;
-use lavolab\TelegramAPI\TgLog;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultInt;
+use Lavolab\TelegramAPI\Exceptions\ClientException;
+use Lavolab\TelegramAPI\HttpClientRequestHandler;
+use Lavolab\TelegramAPI\Telegram\Methods\GetChatMembersCount;
+use Lavolab\TelegramAPI\TgLog;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultInt;
 
 $loop = Factory::create();
 $tgLog = new TgLog(BOT_TOKEN, new HttpClientRequestHandler($loop));

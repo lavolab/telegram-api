@@ -1,11 +1,11 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\SetWebhook;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\SetWebhook;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class SetWebhookTest extends TestCase
 {
@@ -31,7 +31,7 @@ class SetWebhookTest extends TestCase
     }
 
     /**
-     * @expectedException \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \Lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage url
      */
     public function testMandatoryFields()

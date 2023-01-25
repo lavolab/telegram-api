@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
-use lavolab\TelegramAPI\Abstracts\TraversableCustomType;
-use lavolab\TelegramAPI\Telegram\Types\Passport\PassportFile;
-use lavolab\TelegramAPI\Telegram\Types\PhotoSize;
+use Lavolab\TelegramAPI\Abstracts\TraversableCustomType;
+use Lavolab\TelegramAPI\Telegram\Types\Passport\PassportFile;
+use Lavolab\TelegramAPI\Telegram\Types\PhotoSize;
 use Psr\Log\LoggerInterface;
 
 /**

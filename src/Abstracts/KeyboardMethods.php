@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Abstracts;
+namespace Lavolab\TelegramAPI\Abstracts;
 
 abstract class KeyboardMethods extends TelegramTypes
 {

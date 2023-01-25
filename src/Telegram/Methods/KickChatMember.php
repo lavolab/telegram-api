@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
 
 /**
  * Use this method to kick a user from a group or a supergroup. In the case of supergroups, the user will not be able to

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Abstracts;
+namespace Lavolab\TelegramAPI\Abstracts;
 
 use Psr\Log\LoggerInterface;
-use lavolab\Dummy\Logger;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultArray;
+use Lavolab\Dummy\Logger;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultArray;
 
 abstract class TelegramTypes
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\StickerSetArray;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\StickerSetArray;
 
 /**
  * This object represents a sticker set

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Passport;
+namespace Lavolab\TelegramAPI\Telegram\Types\Passport;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents information about an order

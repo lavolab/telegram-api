@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\InternalFunctionality;
+namespace Lavolab\TelegramAPI\InternalFunctionality;
 
-use lavolab\TelegramAPI\Exceptions\ClientException;
-use lavolab\TelegramAPI\Exceptions\InvalidResultType;
-use lavolab\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
+use Lavolab\TelegramAPI\Exceptions\ClientException;
+use Lavolab\TelegramAPI\Exceptions\InvalidResultType;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
 
 class TelegramResponse
 {

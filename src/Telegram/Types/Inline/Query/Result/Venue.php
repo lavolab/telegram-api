@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace Lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use Lavolab\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a venue. By default, the venue will be sent by the user. Alternatively, you can use input_message_content

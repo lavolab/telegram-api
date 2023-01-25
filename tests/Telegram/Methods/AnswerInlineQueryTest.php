@@ -1,13 +1,13 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\AnswerInlineQuery;
-use lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result\Article;
-use lavolab\TelegramAPI\Telegram\Types\InputMessageContent\Text;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\AnswerInlineQuery;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Query\Result\Article;
+use Lavolab\TelegramAPI\Telegram\Types\InputMessageContent\Text;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 //use PHPUnit\Framework\TestCase;
 

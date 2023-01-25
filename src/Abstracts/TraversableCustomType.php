@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Abstracts;
+namespace Lavolab\TelegramAPI\Abstracts;
 
 use ArrayIterator;
 use Generator;
@@ -11,7 +11,7 @@ use Traversable;
 
 /**
  * Class TraversableCustomType
- * @package lavolab\TelegramAPI\Abstracts
+ * @package Lavolab\TelegramAPI\Abstracts
  */
 abstract class TraversableCustomType extends CustomType implements IteratorAggregate
 {

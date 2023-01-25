@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use lavolab\TelegramAPI\Telegram\Types\MessageEntity;
+use Lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use Lavolab\TelegramAPI\Telegram\Types\MessageEntity;
 
 /**
  * Use this method to send general files. On success, the sent Message is returned. Bots can currently send files of any

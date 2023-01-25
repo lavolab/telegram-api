@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
-use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
 use function json_encode;
 
 /**

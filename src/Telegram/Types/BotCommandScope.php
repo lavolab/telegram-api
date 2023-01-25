@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents the scope to which bot commands are applied. Currently, the following 7 scopes are supported:

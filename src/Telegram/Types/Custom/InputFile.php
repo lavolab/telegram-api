@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
-use lavolab\TelegramAPI\Exceptions\FileNotReadable;
+use Lavolab\TelegramAPI\Exceptions\FileNotReadable;
 
 /**
  * This object represents the contents of a file to be uploaded. Must be posted using multipart/form-data in the usual

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\KeyboardMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\KeyboardButtonArray;
+use Lavolab\TelegramAPI\Abstracts\KeyboardMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\KeyboardButtonArray;
 
 /**
  * This object represents a custom keyboard with reply options (see Introduction to bots for details and examples).

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI;
+namespace Lavolab\TelegramAPI;
 
 use React\Promise\PromiseInterface;
 

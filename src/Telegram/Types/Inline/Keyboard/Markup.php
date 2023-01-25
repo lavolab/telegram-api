@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard;
+namespace Lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InlineKeyboardButtonArray;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InlineKeyboardButtonArray;
 
 /**
  * This object represents an inline keyboard that appears right next to the message it belongs to.

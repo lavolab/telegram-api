@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI;
+namespace Lavolab\TelegramAPI;
 
 use Exception;
 use Psr\Http\Message\ResponseInterface;
@@ -11,15 +11,15 @@ use React\Http\Browser;
 use React\Http\Message\ResponseException;
 use React\Promise\PromiseInterface;
 use React\Socket\Connector;
-use lavolab\TelegramAPI\Exceptions\ClientException;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Exceptions\ClientException;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 /**
  * Class HttpClientRequestHandler
  *
  * This class implements a request handler based on the react/http package.
  *
- * @package lavolab\TelegramAPI
+ * @package Lavolab\TelegramAPI
  */
 class HttpClientRequestHandler implements RequestHandlerInterface
 {

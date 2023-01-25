@@ -1,12 +1,12 @@
 <?php
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\TraversableCustomType;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\Telegram\Types\Update;
+use Lavolab\TelegramAPI\Abstracts\TraversableCustomType;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\Telegram\Types\Update;
 
 /**
  * Used for methods that will return an array of messages

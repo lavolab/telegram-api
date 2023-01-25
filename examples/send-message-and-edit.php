@@ -5,13 +5,13 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use lavolab\TelegramAPI\HttpClientRequestHandler;
+use Lavolab\TelegramAPI\HttpClientRequestHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use lavolab\TelegramAPI\Telegram\Methods\EditMessageText;
-use lavolab\TelegramAPI\Telegram\Methods\SendMessage;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\TgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\EditMessageText;
+use Lavolab\TelegramAPI\Telegram\Methods\SendMessage;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\TgLog;
 
 $logger = new Logger('CUSTOM-EXAMPLE');
 $logger->pushHandler(new StreamHandler('logs/custom-example.log'));

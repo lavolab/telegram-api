@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Inline\Query;
+namespace Lavolab\TelegramAPI\Telegram\Types\Inline\Query;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 
 /**
  * This object represents one result of an inline query. Telegram clients currently support results of the following 20
@@ -85,7 +85,7 @@ abstract class Result extends TelegramTypes
      *
      * @see TelegramMethods::export
      * @return array
-     * @throws \lavolab\TelegramAPI\Exceptions\MissingMandatoryField
+     * @throws \Lavolab\TelegramAPI\Exceptions\MissingMandatoryField
      */
     public function export(): array
     {

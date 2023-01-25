@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Inline\ChosenResult;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Query;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\ChosenResult;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Query;
 
 /**
  * This object represents an incoming update.

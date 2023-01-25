@@ -1,12 +1,12 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Types;
+namespace Lavolab\TelegramAPI\tests\Telegram\Types;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Types\Inline\ChosenResult;
-use lavolab\TelegramAPI\Telegram\Types\Inline\Query;
-use lavolab\TelegramAPI\Telegram\Types\Update;
-use lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\ChosenResult;
+use Lavolab\TelegramAPI\Telegram\Types\Inline\Query;
+use Lavolab\TelegramAPI\Telegram\Types\Update;
+use Lavolab\TelegramAPI\Telegram\Types\User;
 
 class UpdateTest extends TestCase
 {

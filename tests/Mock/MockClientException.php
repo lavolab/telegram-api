@@ -1,6 +1,6 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Mock;
+namespace Lavolab\TelegramAPI\tests\Mock;
 
 class MockClientException extends \Exception
 {

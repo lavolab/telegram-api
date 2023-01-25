@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Custom;
+namespace Lavolab\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use lavolab\TelegramAPI\Abstracts\CustomType;
+use Lavolab\TelegramAPI\Abstracts\CustomType;
 
 /**
  * Some APIs (mainly inline bots) respond with boolean types

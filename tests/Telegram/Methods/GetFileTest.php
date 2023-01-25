@@ -1,12 +1,12 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\GetFile;
-use lavolab\TelegramAPI\Telegram\Types\File;
-use lavolab\TelegramAPI\tests\Mock\MockClientException;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\GetFile;
+use Lavolab\TelegramAPI\Telegram\Types\File;
+use Lavolab\TelegramAPI\tests\Mock\MockClientException;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetFileTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\InternalFunctionality;
+namespace Lavolab\TelegramAPI\InternalFunctionality;
 
 /**
  * Used when we download a file from Telegram, contains some important headers information that else would be lost

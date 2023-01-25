@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Types;
+namespace Lavolab\TelegramAPI\Telegram\Types;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use lavolab\TelegramAPI\Telegram\Types\Custom\PollOptionArray;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\PollOptionArray;
 
 /**
  * This object contains information about a poll

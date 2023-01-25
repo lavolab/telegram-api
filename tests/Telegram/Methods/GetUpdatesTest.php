@@ -1,17 +1,17 @@
 <?php
 
-namespace lavolab\TelegramAPI\tests\Telegram\Methods;
+namespace Lavolab\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use lavolab\TelegramAPI\Telegram\Methods\GetUpdates;
-use lavolab\TelegramAPI\Telegram\Types\Chat;
-use lavolab\TelegramAPI\Telegram\Types\Custom\UpdatesArray;
-use lavolab\TelegramAPI\Telegram\Types\Message;
-use lavolab\TelegramAPI\Telegram\Types\PreCheckoutQuery;
-use lavolab\TelegramAPI\Telegram\Types\Update;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\tests\Mock\MockClientException;
-use lavolab\TelegramAPI\tests\Mock\MockTgLog;
+use Lavolab\TelegramAPI\Telegram\Methods\GetUpdates;
+use Lavolab\TelegramAPI\Telegram\Types\Chat;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\UpdatesArray;
+use Lavolab\TelegramAPI\Telegram\Types\Message;
+use Lavolab\TelegramAPI\Telegram\Types\PreCheckoutQuery;
+use Lavolab\TelegramAPI\Telegram\Types\Update;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\tests\Mock\MockClientException;
+use Lavolab\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetUpdatesTest extends TestCase
 {

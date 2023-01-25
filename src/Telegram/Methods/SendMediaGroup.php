@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace lavolab\TelegramAPI\Telegram\Methods;
+namespace Lavolab\TelegramAPI\Telegram\Methods;
 
 use Generator;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use lavolab\TelegramAPI\Abstracts\TelegramMethods;
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Exceptions\InvalidMediaType;
-use lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
-use lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
-use lavolab\TelegramAPI\Telegram\Types\Custom\MessageArray;
-use lavolab\TelegramAPI\Telegram\Types\InputMedia;
-use lavolab\TelegramAPI\Telegram\Types\InputMedia\Photo;
-use lavolab\TelegramAPI\Telegram\Types\InputMedia\Video;
+use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Exceptions\InvalidMediaType;
+use Lavolab\TelegramAPI\InternalFunctionality\TelegramResponse;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
+use Lavolab\TelegramAPI\Telegram\Types\Custom\MessageArray;
+use Lavolab\TelegramAPI\Telegram\Types\InputMedia;
+use Lavolab\TelegramAPI\Telegram\Types\InputMedia\Photo;
+use Lavolab\TelegramAPI\Telegram\Types\InputMedia\Video;
 use function basename;
 use function count;
 use function is_readable;

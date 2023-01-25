@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace lavolab\TelegramAPI\Telegram\Types\Inline;
+namespace Lavolab\TelegramAPI\Telegram\Types\Inline;
 
-use lavolab\TelegramAPI\Abstracts\TelegramTypes;
-use lavolab\TelegramAPI\Telegram\Types\User;
-use lavolab\TelegramAPI\Telegram\Types\Location;
+use Lavolab\TelegramAPI\Abstracts\TelegramTypes;
+use Lavolab\TelegramAPI\Telegram\Types\User;
+use Lavolab\TelegramAPI\Telegram\Types\Location;
 
 /**
  * This object represents a result of an inline query that was chosen by the user and sent to their chat partner.
