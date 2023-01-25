@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace Lavolab\TelegramAPI\Abstracts;
 
 use Psr\Log\LoggerInterface;
-use Lavolab\Dummy\Logger;
+use unreal4u\Dummy\Logger;
 use Lavolab\TelegramAPI\Telegram\Types\Custom\ResultArray;
 
 abstract class TelegramTypes

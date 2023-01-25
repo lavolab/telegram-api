@@ -6,7 +6,7 @@ namespace Lavolab\TelegramAPI;
 
 use Psr\Log\LoggerInterface;
 use React\Promise\PromiseInterface;
-use Lavolab\Dummy\Logger;
+use unreal4u\Dummy\Logger;
 use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
 use Lavolab\TelegramAPI\InternalFunctionality\PostOptionsConstructor;
 use Lavolab\TelegramAPI\InternalFunctionality\TelegramDocument;

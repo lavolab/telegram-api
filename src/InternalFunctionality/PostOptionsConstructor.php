@@ -8,7 +8,7 @@ use MultipartBuilder\Builder;
 use MultipartBuilder\MultipartData;
 use Psr\Log\LoggerInterface;
 use function strstr;
-use Lavolab\Dummy\Logger;
+use unreal4u\Dummy\Logger;
 use Lavolab\TelegramAPI\Abstracts\TelegramMethods;
 use Lavolab\TelegramAPI\Exceptions\MissingMandatoryField;
 use Lavolab\TelegramAPI\Telegram\Types\Custom\InputFile;
