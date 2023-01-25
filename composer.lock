@@ -2093,7 +2093,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Lavolab\\Dummy\\": "src"
+                    "unreal4u\\Dummy\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
